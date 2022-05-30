@@ -1,0 +1,39 @@
+﻿<Window x:Class="SongStill.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SongStill"
+        mc:Ignorable="d"
+        Title="StillSong" Height="450" Width="800">
+    <Window.DataContext>
+        <local:ViewModel></local:ViewModel>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35*"></RowDefinition>
+            <RowDefinition Height="349*"></RowDefinition>
+            <RowDefinition Height="35*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <TextBox FontSize="20" Text="{Binding Search, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+            <Button Grid.Column="1" Command="{Binding SearchClick}">Find</Button>
+        </Grid>
+        <ListBox Grid.Row="1" ItemsSource="{Binding Songs, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding SelectedSongs, UpdateSourceTrigger=PropertyChanged}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Label Content="{Binding Name, UpdateSourceTrigger=PropertyChanged}" FontSize="18" FontWeight="Bold" ></Label>
+                        <Label Content="{Binding URL, UpdateSourceTrigger=PropertyChanged}" FontSize="12" FontStyle="Italic"></Label>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Command="{Binding DownloadClick}" Grid.Row="2">Download</Button>
+    </Grid>
+</Window>

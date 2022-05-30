@@ -1,0 +1,16 @@
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\bin\Debug\WpfApp25.exe.config
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\bin\Debug\WpfApp25.exe
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\bin\Debug\WpfApp25.pdb
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\MainWindow.g.cs
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\App.g.cs
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\WpfApp25_MarkupCompile.cache
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\WpfApp25_MarkupCompile.lref
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\MainWindow.baml
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\WpfApp25.g.resources
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\WpfApp25.Properties.Resources.resources
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\SongStill].csproj.GenerateResource.cache
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\SongStill].csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\WpfApp25.exe
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\WpfApp25.pdb
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\SongStill].csprojAssemblyReference.cache
+C:\Users\STUDENT\source\repos\WpfApp25\WpfApp25\obj\Debug\GeneratedInternalTypeHelper.g.cs
